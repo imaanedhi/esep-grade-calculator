@@ -15,4 +15,5 @@ Run unit tests with code coverage:
 ```
 cd grade-calculator/
 go test -coverprofile=coverage.txt ./...
+go tool cover -func=coverage.txt
 ```
